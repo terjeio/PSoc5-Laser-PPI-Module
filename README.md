@@ -9,4 +9,6 @@ Based on [blog post](http://www.buildlog.net/blog/2011/12/getting-more-power-and
 
 This solution uses PSoC UDBs so no external electronics is required. It has a simple UART command interface, a more flexible one using I2C or SPI communication can easily be added - for possible gcode control.
 
-**NOTE:** only bench tested with grbl and a LED as a stand in for the laser.
+**NOTE:** only bench tested with [grbl](https://github.com/terjeio/grbl) and a LED as a stand in for the laser.
+
+![UDB Logic](Media/PPI-module.png)
